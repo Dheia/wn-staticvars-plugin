@@ -1,0 +1,29 @@
+{
+    "name" : "ursacorelab/wn-staticvars-plugin",
+    "type" : "winter-plugin",
+    "description" : "StaticVars Plugin for WinterCMS",
+    "homepage" : "https://github.com/UrsacoreLab/wn-staticvars-plugin",
+    "keywords" : [
+        "winter cms",
+        "winter",
+        "plugin",
+        "static-vars"
+    ],
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Artem Mr.VACO Feoktistov",
+            "role" : "Original Author"
+        }
+    ],
+    "support" : {
+        "source" : "https://github.com/UrsacoreLab/wn-staticvars-plugin"
+    },
+    "require" : {
+        "php" : ">=8.0",
+        "composer/installers" : "~1.0"
+    },
+    "extra" : {
+        "installer-name" : "static-vars"
+    }
+}
