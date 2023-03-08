@@ -1,0 +1,12 @@
+<?php
+
+$class = [
+0 => 'text-warning',
+10 => 'text-warning',
+20 => 'text-warning',
+100 => 'text-danger',
+110 => 'text-success',
+410 => 'text-success',
+];
+
+echo '<span class="oc-icon-circle '.$class[$record->status].'">'.Lang::get('ursacorelab.staticvars::lang.statuses.'.$record->status).'</span>';

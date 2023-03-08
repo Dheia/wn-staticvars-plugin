@@ -1,0 +1,14 @@
+<?php
+
+$class = [
+'_self'   => 'text-info',
+'_blank'  => 'text-danger',
+'_parent' => 'text-warning',
+'_top'    => 'text-success',
+];
+
+echo '
+<span class="oc-icon-circle ' . $class[$record->link_target] . '">
+    ' . Lang::get('ursacorelab.staticvars::lang.targets.' . $record->link_target) . '
+</span>
+';
