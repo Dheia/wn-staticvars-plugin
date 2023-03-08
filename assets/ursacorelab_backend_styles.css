@@ -1,0 +1,26 @@
+.ursacorelab_body #Form.form-widget {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.ursacorelab_body #Form.form-widget .layout-row:first-child {
+    flex: 0 1 auto;
+    width: 80%;
+    height: auto;
+}
+
+.ursacorelab_body #Form.form-widget .layout-row:last-child {
+    flex: 0 1 auto;
+    width: 20%;
+    height: auto;
+}
+
+.ursacorelab_body .secondary-tabs.ursacorelab_secondary_tabs {
+    padding: 0;
+}
+
+.ursacorelab_body .secondary-tabs.ursacorelab_secondary_tabs .min-size {
+    display: none;
+}
