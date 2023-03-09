@@ -48,3 +48,20 @@
 "translate_code" - сообщение для локализации на стороне фронта
 "messages" - не обязательно - обработка  массива сообщений на стороне фронта
 ```
+
+## Цели ссылки (link target)
+
+```php
+LinkTarget::list()
+
+
+static function list(): array
+{
+    return [
+        '_self'   => 'Current window',
+        '_blank'  => 'In new tab',
+        '_parent' => 'Frame-parent',
+        '_top'    => 'Full window',
+    ];
+}
+```
